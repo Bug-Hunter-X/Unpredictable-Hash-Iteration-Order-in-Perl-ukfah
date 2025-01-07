@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the unpredictable iteration order of Perl hashes. The `bug.pl` script shows code that seems to work correctly, but relies on an unspecified hash iteration behavior. The `bugSolution.pl` script provides a solution that ensures consistent iteration, regardless of the underlying hash implementation.
